@@ -5,5 +5,5 @@ apt -y install emacs ruby ruby-dev wget curl emacs
 apt -y install git apt autoconf bison build-essential
 apt -y install libssl-dev libyaml-dev libreadline6-dev
 apt -y install zlib1g-dev libncurses5-dev libffi-dev
-apt -y install libgdbm5 libgdbm-dev
+apt -y install libgdbm5 libgdbm-dev libsqlite3-dev
 
