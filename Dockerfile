@@ -6,5 +6,5 @@ ADD ann/.emacs  /root/.emacs
 ADD ann/.bashrc /root/ann_bashrc
 RUN bash        /root/apt.bash
 RUN bash        /root/ann.bash
-EXPOSE          23000
+EXPOSE          23000 22
 CMD ["/bin/bash"]
