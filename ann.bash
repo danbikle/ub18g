@@ -2,6 +2,7 @@
 useradd -m -s /bin/bash -G sudo ann
 rsync -a /root/ann/ ~ann/
 chown -R ann        ~ann
+exit
 su - ann -c 'cd ~ann; git clone https://github.com/rbenv/rbenv      .rbenv'
 su - ann -c 'cd ~ann; git clone https://github.com/rbenv/ruby-build .rbenv/plugins/ruby-build'
 su - ann -c 'cd ~ann; rbenv install 2.6.1'

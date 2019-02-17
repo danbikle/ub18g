@@ -11,3 +11,4 @@ apt -y install libssl-dev libyaml-dev libreadline6-dev
 apt -y install zlib1g-dev libncurses5-dev libffi-dev
 apt -y install libgdbm5 libgdbm-dev libsqlite3-dev
 apt -y install nodejs locales tzdata openssh-server
+apt -y install rsync
