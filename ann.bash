@@ -2,6 +2,7 @@
 useradd -m -s /bin/bash -G sudo ann
 rsync -a /root/ann/ ~ann/
 chown -R ann        ~ann
+chgrp -R ann        ~ann
 
 echo root should do this later:
 echo /usr/sbin/sshd -D
